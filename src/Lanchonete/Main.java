@@ -2,6 +2,13 @@ package Lanchonete;
 
 import java.util.ArrayList;
 import java.util.List;
+import Lanchonete.gerenciamento.Estabelecimento;
+import Lanchonete.salao.Mesa;
+import Lanchonete.salao.Atendente;
+import Lanchonete.cozinha.Cozinheiro;
+import Lanchonete.modelo.Cliente;
+import Lanchonete.modelo.Produto;
+import Lanchonete.modelo.ItemPedido;
 
 public class Main {
     public static void main(String[] args) {

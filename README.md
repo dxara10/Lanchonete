@@ -54,7 +54,7 @@ O sistema foi desenvolvido em Java e implementa um fluxo completo de atendimento
 2. Navegue até a pasta src
 3. Compile os arquivos Java:
    ```
-   javac Lanchonete/*.java
+   javac Lanchonete/*.java Lanchonete/*/*.java
    ```
 4. Execute o programa:
    ```
@@ -63,17 +63,29 @@ O sistema foi desenvolvido em Java e implementa um fluxo completo de atendimento
 
 ## Estrutura do Projeto
 
-- `src/Lanchonete/`
-  - `Main.java` - Classe principal com o fluxo de demonstração
-  - `Estabelecimento.java` - Classe que gerencia todo o estabelecimento
-  - `Cliente.java` - Representa os clientes
-  - `Mesa.java` - Gerencia as mesas do estabelecimento
-  - `Atendente.java` - Responsável pelo atendimento
+O projeto está organizado em pacotes por área de responsabilidade:
+
+- `Lanchonete.cozinha`
   - `Cozinheiro.java` - Responsável pela preparação dos pedidos
+
+- `Lanchonete.salao`
+  - `Atendente.java` - Responsável pelo atendimento
+  - `Mesa.java` - Gerencia as mesas do estabelecimento
+
+- `Lanchonete.gerenciamento`
+  - `Estabelecimento.java` - Classe que gerencia todo o estabelecimento
+
+- `Lanchonete.almoxarifado`
   - `Almoxarifado.java` - Gerencia o estoque
+
+- `Lanchonete.modelo`
+  - `Cliente.java` - Representa os clientes
   - `Pedido.java` - Representa os pedidos
   - `ItemPedido.java` - Itens individuais de um pedido
   - `Produto.java` - Produtos disponíveis no cardápio
+
+- `Lanchonete`
+  - `Main.java` - Classe principal com o fluxo de demonstração
 
 ## Getting Started
 
