@@ -2,7 +2,7 @@ package Lanchonete.gerenciamento;
 
 import java.util.ArrayList;
 import java.util.List;
-import Lanchonete.salao.Mesa;
+import Lanchonete.modelo.Mesa;
 import Lanchonete.salao.Atendente;
 import Lanchonete.cozinha.Cozinheiro;
 import Lanchonete.almoxarifado.Almoxarifado;
