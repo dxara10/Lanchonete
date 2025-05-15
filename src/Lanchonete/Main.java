@@ -95,6 +95,9 @@ public class Main {
         // Processando o pedido
         Pedido pedido = cliente.fazerPedido(atendente, itens);
         System.out.println("\nPedido criado: " + pedido.getNumero());
+        
+        // Registra o pedido no faturamento
+        lanchonete.registrarPedido(pedido);
 
         // Atendente encaminha pedido para cozinha
         atendente.encaminharPedidoParaCozinha(pedido, cozinheiro);

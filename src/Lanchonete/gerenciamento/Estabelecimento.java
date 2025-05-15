@@ -5,8 +5,8 @@ import java.util.List;
 import Lanchonete.modelo.Mesa;
 import Lanchonete.salao.Atendente;
 import Lanchonete.cozinha.Cozinheiro;
-import Lanchonete.almoxarifado.Almoxarifado;
 import Lanchonete.modelo.Pedido;
+import Lanchonete.gerenciamento.Almoxarifado;
 
 public class Estabelecimento {
     private String nome;
